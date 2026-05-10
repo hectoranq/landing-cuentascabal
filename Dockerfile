@@ -1,6 +1,6 @@
 # ---- Base ----
 FROM node:22-alpine AS base
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN npm install -g pnpm@9
 
 # ---- Dependencies ----
 FROM base AS deps
