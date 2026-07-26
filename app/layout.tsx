@@ -9,7 +9,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Cuentas Cabal | Inteligencia Financiera sin Esfuerzo",
+  title: "YescaBox | Inteligencia Financiera sin Esfuerzo",
   description:
     "La primera plataforma de gestión financiera diseñada para emprendedores que odian el papeleo. Inteligencia artificial que trabaja para ti.",
 };
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="dark">
+    <html lang="es" className="dark" suppressHydrationWarning>
       <head>
         <link
           rel="stylesheet"
@@ -28,6 +28,7 @@ export default function RootLayout({
         />
       </head>
       <body
+        suppressHydrationWarning
         className={`${plusJakartaSans.className} bg-background text-on-background overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container`}
       >
         {children}

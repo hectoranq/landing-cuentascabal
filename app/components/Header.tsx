@@ -3,7 +3,7 @@ export default function Header() {
     <header className="bg-background/80 backdrop-blur-xl top-0 sticky z-50 border-b border-outline-variant/20">
       <div className="flex justify-between items-center px-margin-desktop py-4 max-w-container-max-width mx-auto">
         <div className="font-display-lg text-display-lg font-bold text-primary tracking-tighter">
-          Cuentas Cabal
+          YescaBox
         </div>
         <nav className="hidden md:flex items-center space-x-8">
           <a
@@ -32,9 +32,7 @@ export default function Header() {
           </a>
         </nav>
         <div className="flex items-center gap-4">
-          <button className="hidden md:block text-on-surface hover:text-primary transition-colors font-body-md text-body-md">
-            Login
-          </button>
+          
           <button className="bg-primary-container text-on-primary-container px-6 py-2.5 rounded-full font-bold hover:scale-95 duration-200 ease-in-out transition-all">
             Get Started
           </button>
