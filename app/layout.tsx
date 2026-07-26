@@ -9,7 +9,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Cuentas Cabal | Inteligencia Financiera sin Esfuerzo",
+  title: "YescaBox | Inteligencia Financiera sin Esfuerzo",
   description:
     "La primera plataforma de gestión financiera diseñada para emprendedores que odian el papeleo. Inteligencia artificial que trabaja para ti.",
 };

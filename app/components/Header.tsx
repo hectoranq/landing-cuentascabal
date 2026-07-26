@@ -3,7 +3,7 @@ export default function Header() {
     <header className="bg-background/80 backdrop-blur-xl top-0 sticky z-50 border-b border-outline-variant/20">
       <div className="flex justify-between items-center px-margin-desktop py-4 max-w-container-max-width mx-auto">
         <div className="font-display-lg text-display-lg font-bold text-primary tracking-tighter">
-          Cuentas Cabal
+          YescaBox
         </div>
         <nav className="hidden md:flex items-center space-x-8">
           <a
