@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="dark">
+    <html lang="es" className="dark" suppressHydrationWarning>
       <head>
         <link
           rel="stylesheet"
@@ -28,6 +28,7 @@ export default function RootLayout({
         />
       </head>
       <body
+        suppressHydrationWarning
         className={`${plusJakartaSans.className} bg-background text-on-background overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container`}
       >
         {children}

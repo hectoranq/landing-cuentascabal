@@ -9,7 +9,7 @@ export default function HeroSection() {
           YescaBox
         </span>
         <h1 className="font-display-lg text-display-lg text-primary max-w-4xl mx-auto mb-8 leading-tight">
-          Elimina la carga administrativa. Enfócate en tu negocio.
+          Elimina la categorización de los gastos. Enfócate en tus finanzas.
         </h1>
         <p className="text-on-surface-variant text-body-md font-body-md max-w-2xl mx-auto mb-12 opacity-80">
           La primera plataforma de gestión financiera diseñada para emprendedores

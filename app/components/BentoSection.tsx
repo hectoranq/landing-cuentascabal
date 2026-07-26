@@ -55,41 +55,7 @@ export default function BentoSection() {
             </div>
           </div>
 
-          {/* Reports card */}
-          <div className="md:col-span-4 glass-card p-10 rounded-3xl bg-primary-container/5 border-primary-container/20">
-            <h3 className="font-headline-lg text-headline-lg text-primary mb-4">
-              Reportes Pro
-            </h3>
-            <p className="text-on-surface-variant text-body-md font-body-md mb-6">
-              Listados cronológicos con miniaturas y filtros avanzados.
-            </p>
-            <ul className="space-y-4">
-              <li className="flex items-center gap-3 p-3 bg-surface-container/50 rounded-xl border border-outline-variant/10">
-                <div className="w-8 h-8 rounded bg-surface-variant flex items-center justify-center">
-                  <span className="material-symbols-outlined text-label-sm">
-                    image
-                  </span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-label-sm font-bold">Amazon Web Services</p>
-                  <p className="text-[10px] opacity-60">12 Oct, 2024 • Tech</p>
-                </div>
-                <span className="text-primary font-bold">$124.50</span>
-              </li>
-              <li className="flex items-center gap-3 p-3 bg-surface-container/50 rounded-xl border border-outline-variant/10">
-                <div className="w-8 h-8 rounded bg-surface-variant flex items-center justify-center">
-                  <span className="material-symbols-outlined text-label-sm">
-                    receipt_long
-                  </span>
-                </div>
-                <div className="flex-1">
-                  <p className="text-label-sm font-bold">Starbucks Coffee</p>
-                  <p className="text-[10px] opacity-60">11 Oct, 2024 • Meals</p>
-                </div>
-                <span className="text-primary font-bold">$12.40</span>
-              </li>
-            </ul>
-          </div>
+        
         </div>
       </div>
     </section>
